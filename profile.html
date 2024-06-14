@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script src="profile.js" defer></script>
+</head>
+
+<body>
+    <h1>You are logged in</h1>
+    <p id="output"></p>
+    <form action="" method="post">
+        <div>
+            <label for="old-password">Old Password:</label>
+            <input type="password" id="old-password" name="oldPassword" required>
+        </div>
+        <div>
+            <label for="new-password">New Password:</label>
+            <input type="password" id="new-password" name="newPassword" required>
+        </div>
+        <div>
+            <button id="btnSubmit" type="submit" name="changePassword">Change Password</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <a href="/">Go back</a>
+</body>
+
+</html>

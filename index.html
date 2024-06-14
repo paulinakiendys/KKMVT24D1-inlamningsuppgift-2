@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <h1>Home</h1>
+    <p id="output"></p>
+    <h2>Register</h2>
+    <div>
+        <label for="register-username">Username:</label>
+        <input type="text" id="register-username" name="username" required>
+    </div>
+    <div>
+        <label for="register-password">Password:</label>
+        <input type="password" id="register-password" name="password" required>
+    </div>
+    <div>
+        <button id="btnSubmit" name="register">Register</button>
+        <button type="reset">Reset</button>
+    </div>
+    <hr>
+    <h2>Login</h2>
+    <form action="/profile.html" method="post">
+        <div>
+            <label for="login-username">Username:</label>
+            <input type="text" id="login-username" name="username" required>
+        </div>
+        <div>
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="password" required>
+        </div>
+        <div>
+            <button type="submit" name="login">Login</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
